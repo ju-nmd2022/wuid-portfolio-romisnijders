@@ -69,7 +69,7 @@ a:hover {
 
 img {
   max-width: 28vw;
-  border-radius: 10px;
+  border-radius: 14px;
 }
 
 #me {
@@ -104,6 +104,13 @@ footer {
   position: absolute;
   left: 44px;
   top: 44px;
+}
+
+video {
+  border-radius: 14px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .grid {
@@ -154,7 +161,7 @@ footer {
 }
 
 .portfolioitems img {
-  width: 380px;
+  min-width: 380px;
   height: 600px;
   filter: grayscale(100%) brightness(80%);
 }
@@ -164,13 +171,13 @@ footer {
   transition: all 0.4s ease;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1300px) {
   .gridportfolio {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 880px) {
   .gridportfolio {
     grid-template-columns: 1fr;
   }
