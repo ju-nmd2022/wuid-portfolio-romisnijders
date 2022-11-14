@@ -107,6 +107,9 @@ footer {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
+.gridportfolio {
+  grid-template-columns: 1fr 1fr 1fr;
+}
 
 .grid-items:nth-child(1) {
   grid-column: 1/2;
