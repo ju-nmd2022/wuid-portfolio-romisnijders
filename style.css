@@ -30,7 +30,7 @@ nav {
   align-items: center;
   justify-content: center;
   height: 60px;
-  position: absolute;
+  position: static;
   top: 0;
   width: 100vw;
 }
@@ -48,6 +48,7 @@ a:hover {
 }
 
 .heronav {
+  position: absolute;
   top: 28vh;
   background: none;
 }
